@@ -10,5 +10,9 @@ export type BusinessData = {
     name: string;
     text: string;
     rating: number;
+  features?: string[];
+facebookUsername: string;
+mapQuery: string;
+hours: string[];
   }[];
 };
