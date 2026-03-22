@@ -140,8 +140,3 @@ export default function ModernDaycare() {
     </div>
   );
 }
-      </section>
-
-    </div>
-  );
-}
