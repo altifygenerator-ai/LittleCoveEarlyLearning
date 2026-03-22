@@ -8,35 +8,48 @@ export default function Modern({ data }: { data: BusinessData }) {
   return (
     <div className={`${poppins.className} bg-[#F5EFE7] text-[#5C4033]`}>
 
-      {/* HERO */}
-      <section className="text-center py-20 px-4">
 
-        <img src="/images/logo.png" className="h-20 mx-auto mb-6" />
+     <section className="relative text-center py-20 px-4 overflow-hidden">
 
-        <h1 className={`${pacifico.className} text-5xl md:text-6xl`}>
-          {data.businessName}
-        </h1>
 
-        <p className="tracking-[0.2em] text-sm mt-2 text-[#8C6F5A]">
-          EARLY LEARNING
-        </p>
+  <div
+    className="absolute inset-0 bg-center bg-cover opacity-20"
+    style={{ backgroundImage: "url('/images/background.png')" }}
+  />
 
-        <p className="mt-6 text-[#6B4F3A] max-w-xl mx-auto">
-          {data.tagline}
-        </p>
+  <div className="absolute inset-0 bg-[#F5EFE7]/85" />
 
-        <a
-          href={`https://www.facebook.com/messages/t/${data.facebookUsername}`}
-          target="_blank"
-          className="mt-6 inline-block bg-[#C98C6B] text-white px-6 py-3 rounded-full shadow"
-        >
-          Enroll My Child
-        </a>
+  <div className="relative z-10">
 
-        <p className="mt-4 text-sm text-[#A38B7A]">
-          Now accepting early interest + waitlist
-        </p>
-      </section>
+    <img src="/images/logo.png" className="h-20 mx-auto mb-6" />
+
+    <h1 className={`${pacifico.className} text-5xl md:text-6xl`}>
+      {data.businessName}
+    </h1>
+
+    <p className="tracking-[0.2em] text-sm mt-2 text-[#8C6F5A]">
+      EARLY LEARNING
+    </p>
+
+    <p className="mt-6 text-[#6B4F3A] max-w-xl mx-auto">
+      {data.tagline}
+    </p>
+
+    <a
+      href={`https://m.me/${data.facebookUsername}`}
+      target="_blank"
+      className="mt-6 inline-block bg-[#C98C6B] text-white px-6 py-3 rounded-full shadow"
+    >
+      Enroll My Child
+    </a>
+
+    <p className="mt-4 text-sm text-[#A38B7A]">
+      Now accepting early interest + waitlist
+    </p>
+
+  </div>
+
+</section>
 
       {/* PROGRAMS (was services) */}
       <section className="max-w-4xl mx-auto p-6 grid md:grid-cols-3 gap-6">
