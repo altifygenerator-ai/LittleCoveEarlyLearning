@@ -1,0 +1,19 @@
+{
+  "businessName": "Hometown Pizza",
+  "tagline": "Fresh Pizza in Amity, AR",
+  "phone": "8703425563",
+  "address": "118 W Thompson St, Amity, AR",
+  "mapQuery": "Hometown Pizza Amity AR",
+
+  "services": ["Pizza", "Subs", "Wings", "Salads"],
+
+  "hours": [
+    "Mon–Thu: 3PM–8PM",
+    "Fri: 11AM–8PM"
+  ],
+
+  "reviews": [
+    { "name": "John D.", "text": "Best pizza in town.", "rating": 5 },
+    { "name": "Sarah M.", "text": "Great food and fast service.", "rating": 5 }
+  ]
+}
