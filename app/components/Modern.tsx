@@ -1,3 +1,5 @@
+"use client";
+
 import { Pacifico, Poppins } from "next/font/google";
 
 const pacifico = Pacifico({ subsets: ["latin"], weight: ["400"] });
