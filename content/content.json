@@ -1,12 +1,21 @@
 {
-  "businessName": "Little Cove Early Learning",
+  "businessName": "Little Cove",
   "tagline": "A cozy, faith-based childcare experience",
-  "phone": "870-XXX-XXXX",
-  "programs": ["Infants", "Toddlers", "Pre-K"],
+  "services": ["Infants 🍼", "Toddlers 🧸", "Pre-K 🎨"],
   "features": [
     "Boutique-style care",
     "Coffee bar for parents",
     "Calm environment",
     "Faith-centered"
+  ],
+  "facebookUsername": "LittleCoveEarlyLearning",
+  "mapQuery": "Mt Ida Arkansas",
+  "hours": ["Mon-Fri 7AM-5PM"],
+  "reviews": [
+    {
+      "name": "Parent",
+      "text": "Amazing environment and caring staff.",
+      "rating": 5
+    }
   ]
 }
