@@ -6,12 +6,6 @@ const poppins = Poppins({ subsets: ["latin"], weight: ["300", "400", "600"] });
 
 export default function Modern({ data }: { data: BusinessData }) {
   return (
-    <div className={`${poppins.className} bg-[#F5EFE7] text-[#5C4033]`}>
-
-
-     <section className="relative text-center py-20 px-4 overflow-hidden">
-
-
   <div
     className="absolute inset-0 bg-center bg-cover opacity-20"
     style={{ backgroundImage: "url('/images/background.png')" }}
